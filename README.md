@@ -1,9 +1,16 @@
-# Netflix Movies and TV Shows Data Analysis using SQL
+# Netflix Movies and TV Shows Data Analysis using SQL and Power BI
 
 ![](https://github.com/dbansal2/netflix_sql_project/blob/main/logo.png)
 
 ## Overview
-This project involves a comprehensive analysis of Netflix's movies and TV shows data using SQL. The goal is to extract valuable insights and answer various business questions based on the dataset. The following README provides a detailed account of the project's objectives, business problems, solutions, findings, and conclusions.
+This project involves a comprehensive analysis of Netflix's movies and TV shows data using SQL and Power BI. The goal is to extract valuable insights and answer various business questions based on the dataset and create an interactive and visually appealing dashboard that allows stakeholders to explore Netflix's content distribution trends. The following README provides a detailed account of the project's objectives, business problems, solutions, findings, and conclusions.
+
+## Tech stacks
+
+- SQL
+- PowerBi Desktop
+- Excel
+- DAX language
 
 ## Objectives
 
@@ -11,6 +18,8 @@ This project involves a comprehensive analysis of Netflix's movies and TV shows 
 - Identify the most common ratings for movies and TV shows.
 - List and analyze content based on release years, countries, and durations.
 - Explore and categorize content based on specific criteria and keywords.
+- Examine the ratings distribution across different content types.
+- Explore content production by country.
 
 ## Dataset
 
@@ -39,7 +48,7 @@ CREATE TABLE netflix
 );
 ```
 
-## Business Problems and Solutions
+## Business Problems and Solutions by using SQL
 
 ### 1. Count the Number of Movies vs TV Shows
 
@@ -254,6 +263,28 @@ GROUP BY category;
 ```
 
 **Objective:** Categorize content as 'Bad' if it contains 'kill' or 'violence' and 'Good' otherwise. Count the number of items in each category.
+
+
+## PowerBI techniques Learnt
+
+- What are all the questions should be asked before staring the project
+- Creating calculated columns
+- creating measure using DAX language
+- Data modeling
+- Dynamic titles based on the applied filters
+- Using KPI indicators
+- Conditional formatting the values in visuals using icons or background color
+- Data validation techniques
+- PowerBi services
+
+### Dashboard designing
+
+Based on the mock ups received as requirement, the team will start designing the visuals and create measure as and when required.
+
+## Dasboard
+
+
+
 
 ## Findings and Conclusion
 
