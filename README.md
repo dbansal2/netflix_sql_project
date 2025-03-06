@@ -283,7 +283,7 @@ Based on the mock ups received as requirement, the team will start designing the
 
 ## Dasboard
 
-
+https://github.com/dbansal2/netflix_sql_project/blob/main/netflix.pdf
 
 
 ## Findings and Conclusion
